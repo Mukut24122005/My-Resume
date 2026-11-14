@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mukut Mani Mishra | AI/ML Engineer & Data Scientist</title>
+<meta name="description" content="Portfolio of Mukut Mani Mishra: AI, machine learning and data science projects.">
+<style>
+:root{--bg:#f6f6fb;--fg:#14141f;--mute:#5b5b72;--card:rgba(255,255,255,.72);--line:rgba(20,20,40,.12);--acc:#5b4bf5;--acc2:#0aa5b5;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#07070f;--fg:#ecebff;--mute:#9a9ab8;--card:rgba(20,20,38,.62);--line:rgba(255,255,255,.12);--acc:#8b7dff;--acc2:#36d6e4}}
+:root[data-theme="dark"]{--bg:#07070f;--fg:#ecebff;--mute:#9a9ab8;--card:rgba(20,20,38,.62);--line:rgba(255,255,255,.12);--acc:#8b7dff;--acc2:#36d6e4}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:hidden}
+#bg{position:fixed;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:14px 5vw;padding-top:calc(14px + env(safe-area-inset-top,0px));backdrop-filter:blur(12px);background:var(--card);border-bottom:1px solid var(--line)}
+nav b{letter-spacing:.5px}
+nav div{display:flex;gap:18px;font-size:14px}
+nav a{color:var(--mute);text-decoration:none}nav a:hover{color:var(--acc)}
+main{position:relative;z-index:1}
+section{min-height:100vh;padding:110px 6vw 60px;max-width:1100px;margin:auto}
+#home{display:flex;flex-direction:column;justify-content:center}
+.tag{color:var(--acc2);font-weight:600;letter-spacing:2px;font-size:13px;text-transform:uppercase}
+h1{font-size:clamp(40px,8vw,84px);line-height:1.05;margin:10px 0;background:linear-gradient(90deg,var(--fg),var(--acc),var(--acc2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{font-size:clamp(18px,2.6vw,26px);color:var(--mute);max-width:640px}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{padding:12px 22px;border-radius:999px;border:1px solid var(--acc);color:var(--fg);text-decoration:none;font-weight:600;transition:.25s;background:var(--card)}
+.btn.p{background:var(--acc);color:#fff}.btn:hover{transform:translateY(-3px);box-shadow:0 10px 30px -8px var(--acc)}
+h2{font-size:clamp(28px,4.5vw,44px);margin:0 0 28px}
+h2 span{color:var(--acc)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;perspective:1000px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;backdrop-filter:blur(10px);transition:transform .15s ease-out,border-color .3s;transform-style:preserve-3d;will-change:transform}
+.card:hover{border-color:var(--acc)}
+.card h3{margin:0 0 8px;transform:translateZ(30px)}
+.card p{color:var(--mute);margin:0 0 14px;transform:translateZ(15px)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{font-size:12.5px;padding:4px 11px;border-radius:999px;border:1px solid var(--line);color:var(--mute)}
+.links{display:flex;gap:14px;margin-top:16px;font-weight:600;font-size:14px}
+.links a{color:var(--acc);text-decoration:none}.links a:hover{text-decoration:underline}
+.date{font-size:13px;color:var(--acc2);font-weight:600}
+.tl{border-left:2px solid var(--line);padding-left:22px;margin-left:6px}
+.tl .card{margin-bottom:20px}
+.rv{opacity:0;transform:translateY(40px);transition:opacity .8s,transform .8s}
+.rv.in{opacity:1;transform:none}
+footer{position:relative;z-index:1;text-align:center;color:var(--mute);padding:30px 6vw 50px;font-size:14px}
+@media (max-width:640px){nav div a:nth-child(n+4){display:none}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<canvas id="bg"></canvas>
+<nav><b>MMM</b><div><a href="#home">Home</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a></div></nav>
+<main>
+<section id="home">
+  <div class="tag">AI · Machine Learning · Data Science</div>
+  <h1>Mukut Mani Mishra</h1>
+  <p class="sub">I build computer vision, NLP and GenAI applications that work end to end, from data to a live app.</p>
+  <div class="btns">
+    <a class="btn p" href="#projects">View projects</a>
+    <a class="btn" href="https://www.linkedin.com/in/mukut-mani-mishra-008551282" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://github.com/Mukut24122005" target="_blank" rel="noopener">GitHub</a>
+  </div>
+  <p class="sub" style="font-size:15px;margin-top:22px">Open to work · Willing to relocate · Always eager to learn new technologies</p>
+</section>
+
+<section id="skills">
+  <h2 class="rv">Skills <span>&amp; toolkit</span></h2>
+  <div class="grid">
+    <div class="card rv"><h3>Data</h3><p>Collecting, cleaning and understanding data.</p><div class="chips"><span class="chip">Python</span><span class="chip">SQL</span><span class="chip">NumPy</span><span class="chip">Pandas</span><span class="chip">Matplotlib</span><span class="chip">Seaborn</span><span class="chip">EDA</span><span class="chip">Feature engineering</span><span class="chip">Web scraping</span></div></div>
+    <div class="card rv"><h3>Deep learning</h3><p>Core theory plus the main architectures.</p><div class="chips"><span class="chip">ANN</span><span class="chip">CNN</span><span class="chip">RNN / LSTM</span><span class="chip">GANs</span><span class="chip">Gradient descent</span><span class="chip">Backpropagation</span><span class="chip">Optimisers</span><span class="chip">Reinforcement learning</span></div></div>
+    <div class="card rv"><h3>NLP &amp; GenAI</h3><p>Language models and agentic workflows.</p><div class="chips"><span class="chip">LLMs</span><span class="chip">Transformers (BERT, GPT)</span><span class="chip">RAG</span><span class="chip">OpenAI API</span><span class="chip">Agentic AI</span><span class="chip">TF-IDF</span><span class="chip">Embeddings</span></div></div>
+    <div class="card rv"><h3>Vision &amp; apps</h3><p>Shipping models as usable products.</p><div class="chips"><span class="chip">Computer vision</span><span class="chip">FastAPI</span><span class="chip">Flask</span><span class="chip">Streamlit</span><span class="chip">HTML / CSS</span><span class="chip">Tailwind CSS</span><span class="chip">Git / GitHub</span></div></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="rv">Selected <span>projects</span></h2>
+  <div class="grid">
+    <div class="card rv"><div class="date">Nov 2026</div><h3>AI Real-Time Gym Coach</h3><p>Analyses live camera video to track body pose, count reps and show form metrics for squats, push-ups, curls, presses and lunges. Includes optional AI voice coaching, workout planning and per-user session history.</p><div class="chips"><span class="chip">MediaPipe</span><span class="chip">OpenCV</span><span class="chip">Streamlit</span><span class="chip">Groq</span></div><div class="links"><a href="https://ai-si-realtime-gym-coach.streamlit.app/" target="_blank" rel="noopener">Live app ↗</a><a href="https://github.com/Mukut24122005/AI-RealTime-gym-Coach" target="_blank" rel="noopener">GitHub ↗</a><a href="https://ai-si-realtime-gym-coach.netlify.app/" target="_blank" rel="noopener">Landing ↗</a></div></div>
+    <div class="card rv"><div class="date">Oct 2026</div><h3>AI Resume ATS Scorer</h3><p>Scores a resume against a job description using NLP and semantic similarity, then shows matching and missing keywords, skill gaps and concrete recommendations.</p><div class="chips"><span class="chip">FastAPI</span><span class="chip">Streamlit</span><span class="chip">spaCy</span><span class="chip">Sentence Transformers</span><span class="chip">Supabase</span></div><div class="links"><a href="https://resume-ats-system-ai.streamlit.app/" target="_blank" rel="noopener">Live app ↗</a><a href="https://github.com/Mukut24122005/ATS_SCORER" target="_blank" rel="noopener">GitHub ↗</a></div></div>
+    <div class="card rv"><div class="date">Sep 2026</div><h3>SnapClass: AI Attendance</h3><p>Classroom attendance from photos and audio using face and voice recognition. Matches students to enrolled profiles and stores records, with separate teacher and student dashboards.</p><div class="chips"><span class="chip">dlib</span><span class="chip">scikit-learn</span><span class="chip">librosa</span><span class="chip">Resemblyzer</span><span class="chip">Supabase</span></div><div class="links"><a href="https://snapclass-si-attendance.streamlit.app" target="_blank" rel="noopener">Live app ↗</a><a href="https://github.com/Mukut24122005/SnapClass-M3-ApnaCollege-Main" target="_blank" rel="noopener">GitHub ↗</a><a href="https://snap-class-landing-page-demo.vercel.app/" target="_blank" rel="noopener">Landing ↗</a></div></div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2 class="rv">Work <span>experience</span></h2>
+  <div class="tl"><div class="card rv"><div class="date">Nov 2024 – Jan 2025 · Remote</div><h3>Full Stack / Frontend Engineer Intern</h3><p>InternsVeda</p></div></div>
+  <h2 class="rv" style="margin-top:40px">Certificate</h2>
+  <div class="card rv"><h3>Prime (AI/ML)</h3><p style="margin:0">Course of completion, Apna College</p></div>
+</section>
+
+<section id="education">
+  <h2 class="rv"><span>Education</span></h2>
+  <div class="tl">
+    <div class="card rv"><div class="date">May 2022 – May 2026</div><h3>B.Tech, Computer Science (AI/ML)</h3><p style="margin:0">Dr. A.P.J. Abdul Kalam Technical University · CGPA 7.1</p></div>
+    <div class="card rv"><div class="date">2021 – 2022</div><h3>Class XII, Science</h3><p style="margin:0">Gyan Kunj Senior Secondary Academy School</p></div>
+    <div class="card rv"><div class="date">2019 – 2020</div><h3>Class X, Science</h3><p style="margin:0">Gyan Kunj Senior Secondary Academy School</p></div>
+  </div>
+</section>
+
+<section id="contact" style="min-height:70vh">
+  <h2 class="rv">Let’s <span>work together</span></h2>
+  <p class="sub rv">I’m open to Data Scientist and AI/ML Engineer roles and happy to relocate. The quickest way to reach me is email.</p>
+  <div class="btns rv">
+    <a class="btn p" href="mailto:iammukut2611@gmail.com">iammukut2611@gmail.com</a>
+    <a class="btn" href="https://www.linkedin.com/in/mukut-mani-mishra-008551282" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://github.com/Mukut24122005" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</section>
+</main>
+<footer>© 2026 Mukut Mani Mishra · Built with three.js</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function(){
+  // scroll reveal
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+  document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // 3D tilt on cards
+  if(!reduce){document.querySelectorAll('.card').forEach(function(c){
+    c.addEventListener('mousemove',function(e){var r=c.getBoundingClientRect();var x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform='rotateY('+(x*12)+'deg) rotateX('+(-y*12)+'deg) translateZ(8px)'});
+    c.addEventListener('mouseleave',function(){c.style.transform=''});
+  })}
+
+  // three.js neural-network background
+  try{
+    var canvas=document.getElementById('bg');
+    var renderer=new THREE.WebGLRenderer({canvas:canvas,alpha:true,antialias:true});
+    renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+    var scene=new THREE.Scene();
+    var camera=new THREE.PerspectiveCamera(60,1,.1,100);camera.position.z=14;
+    var group=new THREE.Group();scene.add(group);
+    var acc=new THREE.Color(0x8b7dff),acc2=new THREE.Color(0x36d6e4);
+    var N=110,pts=[],pos=new Float32Array(N*3);
+    for(var i=0;i<N;i++){
+      var u=Math.random(),v=Math.random(),th=2*Math.PI*u,ph=Math.acos(2*v-1),r=5+Math.random()*4;
+      var p=new THREE.Vector3(r*Math.sin(ph)*Math.cos(th),r*Math.sin(ph)*Math.sin(th),r*Math.cos(ph));
+      pts.push(p);pos[i*3]=p.x;pos[i*3+1]=p.y;pos[i*3+2]=p.z;
+    }
+    var g=new THREE.BufferGeometry();g.setAttribute('position',new THREE.BufferAttribute(pos,3));
+    group.add(new THREE.Points(g,new THREE.PointsMaterial({color:acc2,size:.14,transparent:true,opacity:.9})));
+    var lp=[];
+    for(var a=0;a<N;a++)for(var b=a+1;b<N;b++)if(pts[a].distanceTo(pts[b])<3.2){lp.push(pts[a].x,pts[a].y,pts[a].z,pts[b].x,pts[b].y,pts[b].z)}
+    var lg=new THREE.BufferGeometry();lg.setAttribute('position',new THREE.Float32BufferAttribute(lp,3));
+    group.add(new THREE.LineSegments(lg,new THREE.LineBasicMaterial({color:acc,transparent:true,opacity:.28})));
+    var core=new THREE.Mesh(new THREE.IcosahedronGeometry(2.2,1),new THREE.MeshBasicMaterial({color:acc,wireframe:true,transparent:true,opacity:.55}));
+    scene.add(core);
+    var ring=new THREE.Mesh(new THREE.TorusGeometry(3.4,.02,8,100),new THREE.MeshBasicMaterial({color:acc2}));
+    ring.rotation.x=1.2;scene.add(ring);
+    function size(){var w=innerWidth,h=innerHeight;renderer.setSize(w,h,false);camera.aspect=w/h;camera.updateProjectionMatrix()}
+    size();addEventListener('resize',size);
+    var mx=0,my=0,sy=0;
+    addEventListener('mousemove',function(e){mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
+    addEventListener('scroll',function(){sy=scrollY/Math.max(1,document.body.scrollHeight-innerHeight)});
+    var t=0;
+    function loop(){
+      requestAnimationFrame(loop);
+      if(!reduce)t+=.004;
+      group.rotation.y=t+mx*.8+sy*5;group.rotation.x=my*.5+sy*1.5;
+      core.rotation.y=-t*1.6;core.rotation.x=t;
+      ring.rotation.z=t*2;ring.rotation.y=mx;
+      core.scale.setScalar(1+Math.sin(t*6)*.04);
+      camera.position.z=14-sy*3;
+      renderer.render(scene,camera);
+    }
+    loop();
+  }catch(err){console.warn('3D background unavailable',err)}
+})();
+</script>
+</body>
+</html>
